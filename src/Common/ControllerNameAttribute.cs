@@ -20,6 +20,12 @@ namespace Microsoft.AspNetCore.Mvc
         /// Gets the name of the controller.
         /// </summary>
         /// <value>The controller name.</value>
-        public string Name { get; }
+        private string name;
+        public string Name {
+            
+            get{ return name; }
+        
+            }
+        
     }
 }
